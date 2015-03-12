@@ -15,8 +15,8 @@ public class Oving_020 {
     public static void main(String[] args) throws Exception{
         
         Forbindelse forbindelse = new Forbindelse(DB_URL, USER, PASS);
-        
-        
+                
+
         
         boolean fakturert = forbindelse.fakturer(10, "C:\\Datafiler\\faktura.txt");
         if(!fakturert) {
